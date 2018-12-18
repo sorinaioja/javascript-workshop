@@ -1,0 +1,49 @@
+.square{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+}
+body {
+    font-family: sans-serif;
+    background: rgb(197, 154, 218);
+}
+
+.page-title, .footer {
+    text-align: center;
+}
+
+
+nav {
+    padding: 10px;
+    text-align: center;
+}
+
+nav > a {
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.image-content > img {
+    max-width: 600px;
+    
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.next, .back {
+    font-size: 70px;
+    border-bottom: 60px;
+    cursor: pointer;
+    color: blueviolet;
+}
+
+
